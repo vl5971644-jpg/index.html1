@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>XV Años | Devany Estrella Velázquez Espinoza</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:linear-gradient(180deg,#2b0148,#4b0082,#7b2cbf);
+
+font-family:Arial,sans-serif;
+
+color:white;
+
+overflow-x:hidden;
+
+}
+
+header{
+
+padding:70px 20px;
+
+text-align:center;
+
+}
+
+header h1{
+
+font-family:"Great Vibes",cursive;
+
+font-size:65px;
+
+color:#FFD700;
+
+text-shadow:0 0 20px gold;
+
+margin-bottom:15px;
+
+}
+
+header h2{
+
+font-family:"Cinzel",serif;
+
+font-size:28px;
+
+color:white;
+
+}
+
+header p{
+
+margin-top:20px;
+
+font-size:20px;
+
+}
+
+.hero{
+
+width:90%;
+
+max-width:700px;
+
+margin:auto;
+
+border-radius:25px;
+
+overflow:hidden;
+
+box-shadow:0 0 40px rgba(255,215,0,.45);
+
+}
+
+.hero img{
+
+width:100%;
+
+display:block;
+
+}
+
+section{
+
+padding:50px 20px;
+
+text-align:center;
+
+}
+
+.titulo{
+
+font-family:"Cinzel",serif;
+
+font-size:35px;
+
+color:#FFD700;
+
+margin-bottom:25px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(12px);
+
+padding:25px;
+
+border-radius:20px;
+
+max-width:800px;
+
+margin:auto;
+
+box-shadow:0 0 20px rgba(0,0,0,.4);
+
+}
+
+.card p{
+
+font-size:20px;
+
+line-height:1.8;
+
+}
+
+.gold{
+
+color:#FFD700;
+
+font-weight:bold;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Devany Estrella</h1>
+
+<h2>Mis XV Años</h2>
+
+<p>Con la bendición de Dios y de mis padres</p>
+
+</header>
+
+<div class="hero">
+
+<img src="images/foto1.jpg">
+
+</div>
