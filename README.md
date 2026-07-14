@@ -1,4 +1,103 @@
-<section>
+// =======================================
+// effects.js
+// Efectos especiales XV Devany
+// =======================================
+
+// Brillo en el título
+const titulo = document.querySelector("header h1");
+
+if (titulo) {
+
+    let brillo = 0;
+
+    setInterval(() => {
+
+        brillo += 0.08;
+
+        titulo.style.textShadow =
+            `0 0 ${20 + Math.sin(brillo) * 15}px gold,
+             0 0 ${35 + Math.sin(brillo) * 10}px #d8b4ff`;
+
+    }, 60);
+
+}
+
+// Destellos dorados
+function crearDestello(){
+
+    const estrella = document.createElement("div");
+
+    estrella.innerHTML = "✨";
+
+    estrella.style.position = "fixed";
+    estrella.style.left = Math.random()*100 + "vw";
+    estrella.style.top = Math.imagenes{
+    max-width:500px;
+    margin:40px auto;
+    position:relative;
+}
+
+.imagenes img{
+    display:none;
+    width:100%;
+    border-radius:20px;
+    border:4px solid gold;
+    box-shadow:0 0 30px rgba(255,215,0,.4);
+    animation:fade 1s;
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:scale(.95);
+}
+
+to{
+opacity:1;
+transform:scale(1);
+}
+
+}// ======================================
+// CARRUSEL AUTOMÁTICO
+// XV DEVANY
+// ======================================
+
+const galeria = document.querySelector(".imagenes");
+
+if (galeria) {
+
+    const imagenes = galeria.querySelectorAll("img");
+
+    let indice = 0;
+
+    function mostrarImagen(i){
+
+        imagenes.forEach((img,pos)=>{
+
+            img.style.display = (pos===i) ? "block" : "none";
+
+        });
+
+    }
+
+    mostrarImagen(indice);
+
+    setInterval(()=>{
+
+        indice++;
+
+        if(indice>=imagenes.length){
+
+            indice=0;
+
+        }
+
+        mostrarImagen(indice);
+
+    },4000);
+
+}<section>
 
 <h2 class="titulo">¡Estás cordialmente invitado!</h2>
 
